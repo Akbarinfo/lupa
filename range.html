@@ -17,22 +17,23 @@
   <!-- MAIN PART  -->
 
   <main>
-    <section class="lupa">
+    <section class="range">
       <div class="container">
-        <div class="lupa__main d-flex align-items-center justify-content-center">
-          <div class="lupa__imgbox">
-            <img class="lupa__img" id="bigimg" src="https://picsum.photos/id/23/500/400" alt="">
-          </div>
-
-          <div class="lupa__radius" rimg>
-            <img class="lupa__rimg" id="rimg" src="https://picsum.photos/id/23/500/400" alt="">
+        <div class="range__main d-flex align-items-center justify-content-center">
+          <div class="range__box d-flex justify-content-center flex-column">
+            <p class="range__text" id="text">30</p>
+            <label class="range__label" for="">
+              <span class="range__span" id="span">
+              </span>
+              <input class="range__input" id="range" type="range" value="30">
+            </label>
           </div>
         </div>
       </div>
     </section>
   </main>
 
-  <script src="js/main.js"></script>
+  <script src="js/range.js"></script>
 </body>
 
 </html>
